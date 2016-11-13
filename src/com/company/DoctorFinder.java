@@ -68,9 +68,8 @@ public class DoctorFinder {
         return false;
     }
 
-
     private double GetDistanceBetweenDoctors(String addressDoc1, String addressDoc2){
-        //to keep things simple I am abstracting out the finding the closest doctors.
+        //To keep things simple, I am abstracting out the finding the closest doctors.
         //If I were to fully implement this, I would use Google Maps API to determine the distances.
         //For a stub, this function will just return a random number (in miles lets say)
         return Math.random()*100;

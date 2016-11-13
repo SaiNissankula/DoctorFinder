@@ -65,7 +65,8 @@ public class DoctorFinderTests {
 
     @Test
     public void CompareDistancesTest(){
-        //this testcase I would just assert that 2 doctors that I know are less than 25 miles from each other that my function GetDistanceBetweenDoctors will return true;
+        //This testcase I would just assert that 2 doctors that I know are less than 25 miles from each other that my function GetDistanceBetweenDoctors will return true.
+        //This would be implemented when I implement the Google Map API portion of the code.
     }
 
     @Test

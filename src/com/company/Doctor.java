@@ -14,7 +14,7 @@ public class Doctor {
         this.speciality = speciality;
         this.address = address;
         this.reviewScore = reviewScore;
-        this.insuranceAccepted = insuranceAccepted;
+        this.insuranceAccepted = insuranceAccepted; //I believe this would be an important attribute to track but I am not too familiar how Health Insurance works and how much variation there is between what doctors accept.
     }
 
     @Override
