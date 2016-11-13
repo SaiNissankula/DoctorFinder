@@ -25,6 +25,8 @@ public class DoctorFinder {
             }
         }
 
+        PrioritizeDoctors(foundDoctors);
+
         return foundDoctors;
     }
 
@@ -73,5 +75,10 @@ public class DoctorFinder {
         //If I were to fully implement this, I would use Google Maps API to determine the distances.
         //For a stub, this function will just return a random number (in miles lets say)
         return Math.random()*100;
+    }
+
+    void PrioritizeDoctors(ArrayList<Doctor> foundDoctors){
+        //Normally I am a C# developer and would use LINQ to use sort the array list according to Rating, then by distance.
+        //I am not to familiar with Java 8's Lambda Expression capabilities and how to use that with the array list. If I had more time I would dive into this and use that to sort the found doctors to prioritize based on ratings first then by proximity.
     }
 }
